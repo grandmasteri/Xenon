@@ -3,7 +3,7 @@ package lab_3.individual_lab;
 import kareltherobot.*;
 import java.awt.Color;
 
-public class Problem3 extends Robot
+public class Problem3 extends Problem2
 {
    
     /**
@@ -14,7 +14,7 @@ public class Problem3 extends Robot
         super(st, av, dir, beep);
     }
 
-    public void carpetRooms(){
+    public void carpetLargeRooms(){
         
     }
 }

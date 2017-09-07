@@ -13,9 +13,75 @@ public class Problem2 extends Robot
     {
         super(st, av, dir, beep);
     }
-
-    public void carpetRooms(){
+    int number = 8;
+    public void carpetSmallRooms(){
+        carpetXSmallRooms();
+    }
+    public void carpetXSmallRooms() {
+        for (int i = 0; i < number; i++) {
+            carpetSmallRoom();
+        }
+    }
         
+    public void carpetSmallRoom() {
+        move();
+        turnLeft();
+        move();
+        if (isRoom()) {
+            putBeeper();
+        }
+        turn180();
+        move();
+        turnLeft();
+    }
+        
+    public boolean isRoom() {
+        if (checkLeftWall() && checkRightWall() && checkCeiling()) {
+            return true;
+        }
+        else {
+             return false;
+        }
+    }
+    public boolean checkLeftWall() {
+        turnLeft();
+        if (frontIsClear()) {
+            turnRight();
+            return false;
+        }
+        else {
+            turnRight();
+            return true;
+        }
+    }
+    public boolean checkRightWall() {
+        turnRight();
+        if (frontIsClear()) {
+            turnLeft();
+            return false;
+        }
+        else {
+            turnLeft();
+            return true;
+        }
+    }
+    public boolean checkCeiling() {
+        if (frontIsClear()) {
+            return false;
+        }
+        else {
+            return true;
+        }
+    }
+    public void turnRight() {
+            turnLeft();
+            turnLeft();
+            turnLeft();
+    }
+    public void turn180() {
+        turnLeft();
+        turnLeft();
     }
 }
+
 

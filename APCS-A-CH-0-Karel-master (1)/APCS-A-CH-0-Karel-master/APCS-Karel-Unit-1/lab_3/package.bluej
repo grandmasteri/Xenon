@@ -1,12 +1,23 @@
 #BlueJ package file
-package.editor.height=400
-package.editor.width=560
-package.editor.x=11
-package.editor.y=11
+objectbench.height=211
+objectbench.width=1896
+package.divider.horizontal=0.6
+package.divider.vertical=0.770042194092827
+package.editor.height=723
+package.editor.width=1806
+package.editor.x=-42
+package.editor.y=117
+package.frame.height=1047
+package.frame.width=1936
 package.numDependencies=0
 package.numTargets=2
 package.showExtends=true
 package.showUses=true
+readme.height=58
+readme.name=@README
+readme.width=47
+readme.x=10
+readme.y=10
 target1.height=62
 target1.name=individual_lab
 target1.type=PackageTarget

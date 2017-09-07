@@ -7,7 +7,7 @@ public class Problem3Driver implements Directions
 {
     public static void main(String args[])  {
         Problem3 karel = new Problem3(1, 1, East, -1);
-        karel.carpetRooms();
+        karel.carpetLargeRooms();
         karel.turnOff();
         
     } 
