@@ -8,7 +8,7 @@
 public class Names
 {
     // instance variables - replace the example below with your own
-    
+    //test
     public static void main(String[] args) {
         System.out.println ("\tStudent\t\t\tHometown\tMajor");
         System.out.println ("\t=======\t\t\t========\t=====");
