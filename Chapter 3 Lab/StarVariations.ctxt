@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=StarVariations
+comment1.params=
+comment1.target=StarVariations()
+comment2.params=x
+comment2.target=void\ makeSpaces(int)
+comment3.params=y
+comment3.target=void\ makeStars(int)
+numComments=4
